@@ -1,0 +1,49 @@
+.main-content {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center; /* horizontally center the items */
+  align-items: center; /* vertically center the items */
+  /* height: 80vh; set the height to the full viewport height */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.category-cards {
+  display: flex; /* Use flexbox to display cards side by side */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 30px;
+}
+
+.product-item-men,
+.product-item-women {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  width: 300px; /* Set a fixed width for each card */
+}
+
+.product-item-men img,
+.product-item-women img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-item-men h3,
+.product-item-women h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-item-men:hover,
+.product-item-women:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
